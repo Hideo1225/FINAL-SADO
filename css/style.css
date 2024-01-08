@@ -1,0 +1,78 @@
+.title{
+  font-size: 60px;
+  writing-mode: vertical-rl; 
+  line-height: 150%;         
+}
+.topPageTtl{
+  position: absolute; 
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 350px;      
+}
+.topPageTtl .rightAlign{
+  text-align: right;  
+  display: block;     
+}
+.topPageTtl .centerAlign{
+  text-align: center;  
+  display: block;      
+}
+.page02Ttl{
+  width: 250px;        
+  margin-left: 50px;   
+}
+.page03Ttl{
+  border: 1px solid #000; 
+  margin-left: 100px;       
+}
+.page03Ttl .title{
+  border: 1px solid #000; 
+  margin: 20px;             
+}
+.page02flex,.page03flex{
+  display: flex;            
+  align-items:center;       
+  position: absolute;       
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.slider,.flour{
+  width: 300px;            
+}
+.slider img{
+  height: 200px;           
+}
+.slider {
+  display: none;           
+}
+.slider.slick-initialized {
+  display: block;          
+}
+.page04flex{
+  display: flex;           
+  position: absolute;      
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.vertical{
+  font-size: 20px;
+  writing-mode: vertical-rl;   
+  line-height: 150%;           
+  text-align: right;           
+}
+.btn{
+  color: #fff;               
+  background-color: #006400; 
+  position: absolute;          
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px 60px;          
+  border-radius: 10px;         
+}
+.btn:hover{
+  opacity: 0.7;                
+}
